@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "scripts": {
+    "dev": "wrangler dev --local --persist-to .wrangler/state",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240108.0",
+    "wrangler": "^3.0.0"
+  }
+}

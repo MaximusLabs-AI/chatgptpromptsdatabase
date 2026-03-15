@@ -1,0 +1,12 @@
+name = "v1-ai-prompts-explorer-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "prompts-db"
+database_id = "your-id-here"
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "your-kv-id-here"
