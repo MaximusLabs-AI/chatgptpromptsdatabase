@@ -1,6 +1,7 @@
 # 🌌 AI Prompts Explorer
 
 [![Maximus Ecosystem](https://img.shields.io/badge/Maximus-Ecosystem-001C64?style=for-the-badge)](https://maximuslabs.ai)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://www.maximuslabs.ai/tools/chatgpt-prompts-database)
 [![Revenue Engine](https://img.shields.io/badge/Revenue-Engine-449AFB?style=for-the-badge)](#)
 
 A high-performance, SEO-centric search engine for real user prompts harvested from public AI conversation datasets (WildChat-1M). Designed for researchers, prompt engineers, and SEO specialists to analyze human-AI interaction patterns.
