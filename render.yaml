@@ -12,10 +12,6 @@ services:
         value: 3000
       - key: NODE_ENV
         value: production
-    disk:
-      name: data
-      mountPath: /opt/render/project/src/api/data
-      sizeGB: 1
 
   # Frontend (Static Site)
   - type: web
@@ -25,10 +21,6 @@ services:
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    headers:
-      - path: /*
-        name: Cache-Control
-        value: public, max-age=31536000
     envVars:
       - key: VITE_API_BASE
         value: https://ai-prompts-api.onrender.com
